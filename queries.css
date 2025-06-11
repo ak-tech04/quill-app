@@ -1,0 +1,53 @@
+@media screen and (max-width: 76.5rem) {
+  /* 1230/16px --> 76.5rem */
+  /* XL display  */
+  html {
+    font-size: 56.5%;
+  }
+}
+
+@media screen and (max-width: 62rem) {
+  /* 992/16px --> 62rem */
+  /* lg display */
+  html {
+    font-size: 46%;
+  }
+  .hero-section {
+    margin-bottom: 5rem;
+  }
+  .features-section {
+    margin-bottom: 20rem;
+  }
+  .features-grid-container {
+    row-gap: 8rem;
+    column-gap: 5rem;
+  }
+  .cta-section {
+    margin-bottom: 20rem;
+  }
+}
+
+@media screen and (max-width: 48rem) {
+  /* 768px */
+  html {
+    font-size: 42%;
+  }
+  .features-grid-container {
+    grid-template-columns: 1fr;
+  }
+  .features-img-swap-order {
+        grid-row: 4/5 ;
+  }
+}
+
+@media screen and (max-width : 36rem){
+    /* sm 576px */
+    html{
+        font-size: 36%;
+
+    }
+    .cta-card{
+        padding: 8rem 3rem;
+
+    }
+}
